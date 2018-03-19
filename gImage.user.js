@@ -2,7 +2,7 @@
 // @name         gImage
 // @namespace    gimage
 // @version      2.4.1
-// @description  This extension brings back the Image button from the Google Image Search, and it does it better than anyone else!
+// @description  This script brings back the Image button from the Google Image Search, and it does it better than anyone else!
 // @author       pipe01
 // @match        *://www.google.com/*tbm=isch*
 // @match        *://www.google.es/*tbm=isch*
