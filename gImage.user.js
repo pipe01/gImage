@@ -54,7 +54,7 @@
             var btn = l[i].parentNode.cloneNode(true);
             var parent = l[i].parentNode.parentNode;
             parent.insertBefore(btn, parent.children[0]);
-
+ 
             if (l[i].children == null) continue;
 
             l[i].children[0].innerHTML = IconSVG;
