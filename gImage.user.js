@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         gImage
 // @namespace    gimage
-// @version      2.4.0
+// @version      2.4.1
 // @description  This extension brings back the Image button from the Google Image Search, and it does it better than anyone else!
 // @author       pipe01
 // @match        *://www.google.com/*tbm=isch*
@@ -27,11 +27,7 @@
         {
             ret = ret.parentNode;
 
-            if (ret == null)
-            {
-                console.error("Parent of " + node + " at level " + level + " was null!");
-                return node;
-            }
+            if (ret == null) return node;
         }
         return ret;
     }
